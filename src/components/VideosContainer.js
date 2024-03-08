@@ -11,7 +11,6 @@ const VideosContainer = () => {
   async function fetchData() {
     const response = await fetch(process.env.REACT_APP_YOUTUBE_VIDEOS_API);
     const data = await response.json();
-    // console.log(data.items);
     setVideos(data.items);
   }
 

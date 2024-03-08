@@ -25,8 +25,6 @@ const appRouter = createBrowserRouter([
   },
 ]);
 
-// console.log(process.env.REACT_APP_YOUTUBE_VIDEOS_API);
-
 function App() {
   const darkTheme = useSelector((state) => state.dark.dark);
   const dispatch = useDispatch();
